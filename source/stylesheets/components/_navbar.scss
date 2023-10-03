@@ -1,6 +1,19 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+  justify-content: center;
+  background: rgba(184, 242, 230, 0.7);
+  color: white;
+  height: 90px;
+  align-items: center;
+  //font-family: $navbar-font;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-lewagon .navbar-collapse {

@@ -1,10 +1,18 @@
-.navbar-lewagon {
+.navbar {
   justify-content: center;
-  background: rgb(184, 242, 230);
+  background: rgb(196, 30, 61);
   color: white;
   height: 90px;
   align-items: center;
-  //font-family: $navbar-font;
+}
+
+
+.navbar a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  font-size: larger;
+
 }
 
 .item {

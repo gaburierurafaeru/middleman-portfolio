@@ -1,9 +1,11 @@
 .bio-container{
   text-align: center;
-  background-color:white;
+  background-color: rgba(242, 8, 156, 0.7);
   font-family: 'Dosis', sans-serif;
   margin-top: 50px;
-  color: rgb(242, 8, 156);
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(242, 8, 156);
+  border-radius: 10px 100px / 120px;
+  border: groove 2em white;
 }

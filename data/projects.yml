@@ -1,11 +1,11 @@
 - name: Flip It!
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/screenshot_flipit.png
   url: https://www.google.com
 
 - name: Dogs For Days
   description: Decent description of the app
-  image: projects/Capture d’écran 2023-10-10 à 12.24.07.png
+  image: projects/screenshot_dogsfordays.png
   url: https://www.google.com
 
 # - name: Airbnb

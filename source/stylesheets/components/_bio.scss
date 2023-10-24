@@ -1,11 +1,13 @@
 .bio-container{
   text-align: center;
-  background-color: rgb(242, 8, 156);
   font-family: 'Dosis', sans-serif;
   margin-top: 50px;
-  color: white;
+  color: rgb(242, 8, 156);
   border-style: solid;
   border-color: rgb(242, 8, 156);
+  padding: 20px;
+  border-radius: 5%;
+  border-width: 5px;
 }
 
 // .bio-cards{

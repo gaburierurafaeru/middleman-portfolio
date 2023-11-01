@@ -4,7 +4,96 @@ text-align: center;
 }
 
 .project-image{
-margin:10px;
+margin-bottom:50px;
 width:700px;
-justify-content: center;
+
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flipit-project-card {
+  perspective: 1000px; /* Perspective for 3D effect */
+  width: 200px; /* Set the width of the card */
+  height: 300px; /* Set the height of the card */
+
+}
+
+.flipit-project-card-inner {
+  width: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease; /* Transition for smooth flipping effect */
+}
+
+.flipit-project-card:hover .flipit-project-card-inner {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.flipit-project-card-front,
+.flipit-project-card-back {
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Hide the back side of the card initially */
+}
+
+.flipit-project-card-front {
+  background-color: #3498db; /* Front side background color */
+  color: white; /* Front side text color */
+  background-image: url('../images/projects/flipit.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-size: cover; /* This property ensures the image covers the entire element */
+  background-repeat: no-repeat; /* This property prevents the image from repeating */
+  background-position: center center;
+}
+
+.flipit-project-card-back {
+  background-color: #e74c3c; /* Back side background color */
+  color: white; /* Back side text color */
+  transform: rotateY(180deg); /* Initially rotate the back side of the card */
+}
+
+.dogs-project-card {
+  perspective: 1000px; /* Perspective for 3D effect */
+  width: 200px; /* Set the width of the card */
+  height: 300px; /* Set the height of the card */
+
+}
+
+.dogs-project-card-inner {
+  width: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease; /* Transition for smooth flipping effect */
+}
+
+.dogs-project-card:hover .dogs-project-card-inner {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.dogs-project-card-front,
+.dogs-project-card-back {
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Hide the back side of the card initially */
+}
+
+.dogs-project-card-front {
+  background-color: #3498db; /* Front side background color */
+  color: white; /* Front side text color */
+  background-image: url('../images/projects/dogsfordays.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-size: cover; /* This property ensures the image covers the entire element */
+  background-repeat: no-repeat; /* This property prevents the image from repeating */
+  background-position: center center;
+}
+
+.dogs-project-card-back {
+  background-color: #e74c3c; /* Back side background color */
+  color: white; /* Back side text color */
+  transform: rotateY(180deg); /* Initially rotate the back side of the card */
 }

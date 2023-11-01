@@ -1,25 +1,11 @@
-<%# <div class="row my-5"> %>
-<%# <div class="col-12"> %>
-<%# <div class="container"> %>
 <div class="project-title m-5">
-  <h1> PROJECTS</h1>
+  <h1> WEB PROJECTS</h1>
 </div>
-<div class="cards m-5 ">
-  <% data.projects.each do |project| %>
-    <div class="card-product">
-      <%= image_tag project.image, alt: "project image" %>
-      <div class="card-product-infos w-100">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2><%= project.name %></h2>
-          <% link_to project.url, class: 'external-link', target: '_blank' do %>
-            <i class="fas fa-external-link-alt"></i>
-          <% end %>
-        </div>
-        <p><%= project.description %></p>
-      </div>
-    </div>
-  <% end %>
+<div class="col-12">
+  <div class="row">
+    <img class="project-image" src="../images/projects/flipit.png" alt="Description of the image">
+  </div>
+  <div class="row">
+    <img class="project-image" src="../images/projects/dogsfordays.png" alt="Description of the image">
+  </div>
 </div>
-<%# </div> %>
-<%# </div> %>
-<%# </div> %>

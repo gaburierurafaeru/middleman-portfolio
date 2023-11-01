@@ -3,12 +3,18 @@
   font-family: 'Dosis', sans-serif;
   margin-top: 50px;
   color: black;
-  border-style: solid;
-  border-color: rgb(242, 8, 156);
   padding: 20px;
   border-radius: 5%;
   border-width: 5px;
 }
+
+.row{
+  background-image: url('../images/projects/leopard.png');
+  background-size: cover; /* This property ensures the image covers the entire element */
+  background-repeat: no-repeat; /* This property prevents the image from repeating */
+  background-position: center center;/* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+}
+
 
 // .bio-cards{
 //     width: 200px;

@@ -51,14 +51,20 @@ width:700px;
   background-size: cover; /* This property ensures the image covers the entire element */
   background-repeat: no-repeat; /* This property prevents the image from repeating */
   background-position: center center;
+  border: solid 15px black;
+  border-radius:1%;
 }
 
 .flipit-project-card-back {
   background-color: white; /* Back side background color */
-  color: black; /* Back side text color */
+  color:white; /* Back side text color */
+  background-color: black;
   border-style: solid;
   border-color: rgb(242, 8, 156);
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
+  border: solid 15px black;
+  border-radius:1%;
+  padding:15px;
 }
 
 .dogs-project-card {
@@ -94,12 +100,16 @@ width:700px;
   background-size: cover; /* This property ensures the image covers the entire element */
   background-repeat: no-repeat; /* This property prevents the image from repeating */
   background-position: center center;
+  border: solid 15px black;
+  border-radius:1%;
 }
 
 .dogs-project-card-back {
   background-color: white; /* Back side background color */
   color: black; /* Back side text color */
   border-style: solid;
-  border-color: rgb(242, 8, 156);
+  background-color: rgb(242, 8, 156);
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
+  border: solid 15px black;
+  border-radius:1%;
 }

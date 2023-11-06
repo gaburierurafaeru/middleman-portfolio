@@ -64,7 +64,7 @@ width:700px;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   border: solid 15px black;
   border-radius:1%;
-  padding:15px;
+  padding:7px;
 }
 
 .dogs-project-card {
@@ -106,10 +106,25 @@ width:700px;
 
 .dogs-project-card-back {
   background-color: white; /* Back side background color */
-  color: black; /* Back side text color */
+  color:white; /* Back side text color */
+  background-color: black;
   border-style: solid;
-  background-color: rgb(242, 8, 156);
+  border-color: rgb(242, 8, 156);
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   border: solid 15px black;
   border-radius:1%;
+  padding:15px;
+}
+
+.highlight{
+  color:rgb(242, 8, 156)
+}
+
+.link{
+  color:rgb(242, 8, 156)
+}
+
+.link:hover  {
+  color: white; /* Color change on hover */
+  transition: color 0.3s ease;
 }

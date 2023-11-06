@@ -16,3 +16,26 @@
 width:100%;
 align-items: center;
 }
+
+a{
+  color:rgb(242, 8, 156);
+  text-decoration: none;
+
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: white; /* Button background color */
+  color:rgb(242, 8, 156); /* Button text color */
+  text-decoration: none;
+  border: 1px solid rgb(242, 8, 156); /* Button border */
+  border-radius: 50px; /* Optional: Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+
+}
+
+.button-link:hover {
+  color:white; /* Button background color on hover */
+  background-color: rgb(242, 8, 156);
+}

@@ -3,11 +3,7 @@ color:rgb(242, 8, 156);
 text-align: center;
 }
 
-.project-image{
-margin-bottom:50px;
-width:700px;
 
-}
 
 // .flipit{
 //   display: flex;
@@ -21,6 +17,7 @@ width:700px;
   width: 200px; /* Set the width of the card */
   height: 300px; /* Set the height of the card */
 
+
 }
 
 .flipit-project-card-inner {
@@ -29,6 +26,7 @@ width:700px;
 
   transform-style: preserve-3d;
   transition: transform 0.5s ease; /* Transition for smooth flipping effect */
+
 }
 
 .flipit-project-card:hover .flipit-project-card-inner {
@@ -42,6 +40,7 @@ width:700px;
 
   position: absolute;
   backface-visibility: hidden; /* Hide the back side of the card initially */
+
 }
 
 .flipit-project-card-front {
@@ -113,18 +112,18 @@ width:700px;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   border: solid 15px black;
   border-radius:1%;
-  padding:15px;
+  padding:7px;
 }
 
 .highlight{
-  color:rgb(242, 8, 156)
+  color:rgb(242, 8, 156);
 }
 
 .link{
-  color:rgb(242, 8, 156)
+  color:white;
 }
 
 .link:hover  {
-  color: white; /* Color change on hover */
+  color: rgb(242, 8, 156); /* Color change on hover */
   transition: color 0.3s ease;
 }

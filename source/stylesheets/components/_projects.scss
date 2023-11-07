@@ -1,15 +1,17 @@
 .project-title{
 color:rgb(242, 8, 156);
 text-align: center;
+margin-top:100px;
+margin-bottom: 30px;
 }
 
 
 
-// .flipit{
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .flipit-project-card {
@@ -112,7 +114,7 @@ text-align: center;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   border: solid 15px black;
   border-radius:1%;
-  padding:7px;
+  padding:5px;
 }
 
 .highlight{
@@ -130,4 +132,8 @@ text-align: center;
 
 .italic-text{
   font-style:italic;
+}
+
+.bold-text{
+  font-weight:400;
 }

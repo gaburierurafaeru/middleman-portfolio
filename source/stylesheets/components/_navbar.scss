@@ -12,6 +12,7 @@
   font-family: 'Dosis', sans-serif;
   font-size: 25px;
   margin:20px;
+  transition: color 0.3s ease;
 }
 
 .item {
@@ -29,4 +30,8 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-link:hover{
+color:rgb(242, 8, 156);
 }

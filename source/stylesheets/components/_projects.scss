@@ -7,23 +7,19 @@ margin-bottom: 30px;
 
 
 
-.projects{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 .flipit-project-card {
   perspective: 1000px; /* Perspective for 3D effect */
   width: 200px; /* Set the width of the card */
   height: 300px; /* Set the height of the card */
+  margin-bottom: 40px;
+  justify-content: center;
 
 
 }
 
 .flipit-project-card-inner {
-  width: 600px;
+  width: 605px;
   height: 100%;
 
   transform-style: preserve-3d;
@@ -37,11 +33,12 @@ margin-bottom: 30px;
 
 .flipit-project-card-front,
 .flipit-project-card-back {
-  width: 600px;
+  width: 605px;
   height: 100%;
 
   position: absolute;
   backface-visibility: hidden; /* Hide the back side of the card initially */
+
 
 }
 
@@ -65,18 +62,18 @@ margin-bottom: 30px;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   border: solid 15px black;
   border-radius:1%;
-  padding:7px;
+  padding: 10px 3px 10px 3px;
 }
 
 .dogs-project-card {
   perspective: 1000px; /* Perspective for 3D effect */
   width: 200px; /* Set the width of the card */
   height: 300px; /* Set the height of the card */
-
+  margin-bottom: 40px
 }
 
 .dogs-project-card-inner {
-  width: 600px;
+  width: 605px;
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.5s ease; /* Transition for smooth flipping effect */
@@ -88,7 +85,7 @@ margin-bottom: 30px;
 
 .dogs-project-card-front,
 .dogs-project-card-back {
-  width: 600px;
+  width: 605px;
   height: 100%;
   position: absolute;
   backface-visibility: hidden; /* Hide the back side of the card initially */
@@ -114,7 +111,7 @@ margin-bottom: 30px;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   border: solid 15px black;
   border-radius:1%;
-  padding:5px;
+  padding:10px 3px 10px 3px;
 }
 
 .highlight{

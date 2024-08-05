@@ -1,8 +1,8 @@
-.project-title{
-color:rgb(242, 8, 156);
-text-align: center;
-margin-top:100px;
-margin-bottom: 30px;
+.project-title {
+  color: rgb(242, 8, 156);
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .project-container {
@@ -11,14 +11,11 @@ margin-bottom: 30px;
   justify-content: center;
 }
 
-
 .flipit-project-card {
   perspective: 1000px; /* Perspective for 3D effect */
   width: 605px; /* Set the width of the card */
   height: 300px; /* Set the height of the card */
   margin-bottom: 40px;
-
-
 }
 
 .flipit-project-card-inner {
@@ -27,7 +24,6 @@ margin-bottom: 30px;
 
   transform-style: preserve-3d;
   transition: transform 0.5s ease; /* Transition for smooth flipping effect */
-
 }
 
 .flipit-project-card:hover .flipit-project-card-inner {
@@ -41,29 +37,27 @@ margin-bottom: 30px;
 
   position: absolute;
   backface-visibility: hidden; /* Hide the back side of the card initially */
-
-
 }
 
 .flipit-project-card-front {
   background-color: #3498db; /* Front side background color */
   color: white; /* Front side text color */
-  background-image: url('../images/projects/flipit.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-image: url("../images/projects/flipit.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
   background-size: cover; /* This property ensures the image covers the entire element */
   background-repeat: no-repeat; /* This property prevents the image from repeating */
   background-position: center center;
   border: solid 15px rgba(0, 0, 0, 0.8);
-  border-radius:1%;
+  border-radius: 1%;
 }
 
 .flipit-project-card-back {
   background-color: white; /* Back side background color */
-  color:white; /* Back side text color */
+  color: white; /* Back side text color */
   background-color: rgba(0, 0, 0, 0.8);
   // border-style: solid;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   // border: solid 15px rgb(242, 8, 156);
-  border-radius:1%;
+  border-radius: 1%;
   padding: 20px;
 }
 
@@ -71,7 +65,7 @@ margin-bottom: 30px;
   perspective: 1000px; /* Perspective for 3D effect */
   width: 200px; /* Set the width of the card */
   height: 300px; /* Set the height of the card */
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 .dogs-project-card-inner {
@@ -96,42 +90,89 @@ margin-bottom: 30px;
 .dogs-project-card-front {
   background-color: #3498db; /* Front side background color */
   color: white; /* Front side text color */
-  background-image: url('../images/projects/dogsfordays.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-image: url("../images/projects/dogsfordays.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
   background-size: cover; /* This property ensures the image covers the entire element */
   background-repeat: no-repeat; /* This property prevents the image from repeating */
   background-position: center center;
   border: solid 15px rgba(0, 0, 0, 0.8);
-  border-radius:1%;
+  border-radius: 1%;
 }
 
 .dogs-project-card-back {
   background-color: white; /* Back side background color */
-  color:white; /* Back side text color */
+  color: white; /* Back side text color */
   background-color: rgba(0, 0, 0, 0.8);
   // border-style: solid;
   transform: rotateY(180deg); /* Initially rotate the back side of the card */
   // border: solid 15px rgb(242, 8, 156);
-  border-radius:1%;
+  border-radius: 1%;
   padding: 20px;
 }
 
-.highlight{
-  color:rgb(242, 8, 156);
+.figma-project-card {
+  perspective: 1000px; /* Perspective for 3D effect */
+  width: 200px; /* Set the width of the card */
+  height: 300px; /* Set the height of the card */
+  margin-bottom: 40px;
 }
 
-.link{
-  color:white;
+.figma-project-card-inner {
+  width: 605px;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease; /* Transition for smooth flipping effect */
 }
 
-.link:hover  {
+.figma-project-card:hover .figma-project-card-inner {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.figma-project-card-front,
+.figma-project-card-back {
+  width: 605px;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Hide the back side of the card initially */
+}
+
+.figma-project-card-front {
+  background-color: #3498db; /* Front side background color */
+  color: white; /* Front side text color */
+  background-image: url("../images/projects/Figma.png"); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-size: cover; /* This property ensures the image covers the entire element */
+  background-repeat: no-repeat; /* This property prevents the image from repeating */
+  background-position: center center;
+  border: solid 15px rgba(0, 0, 0, 0.8);
+  border-radius: 1%;
+}
+
+.figma-project-card-back {
+  background-color: white; /* Back side background color */
+  color: white; /* Back side text color */
+  background-color: rgba(0, 0, 0, 0.8);
+  // border-style: solid;
+  transform: rotateY(180deg); /* Initially rotate the back side of the card */
+  // border: solid 15px rgb(242, 8, 156);
+  border-radius: 1%;
+  padding: 20px;
+}
+.highlight {
+  color: rgb(242, 8, 156);
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
   color: rgb(242, 8, 156); /* Color change on hover */
   transition: color 0.3s ease;
 }
 
-.italic-text{
-  font-style:italic;
+.italic-text {
+  font-style: italic;
 }
 
-.bold-text{
-  font-weight:400;
+.bold-text {
+  font-weight: 400;
 }

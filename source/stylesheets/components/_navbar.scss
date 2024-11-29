@@ -1,21 +1,26 @@
 .navbar {
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.8);
+  justify-content: right;
+  background: rgba(0, 0, 0, 0);
   color: white;
   height: 90px;
   align-items: center;
+  padding-right: 20px;
 }
 
-.navbar a{
+.navbar a {
   text-decoration: none;
-  color:white;
-  font-family: 'Dosis', sans-serif;
-  font-size: 25px;
-  margin:20px;
+  color: #c41e3a;
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+  margin: 7px;
   transition: color 0.3s ease;
 }
 
-.item {
+.navbar-about {
+  size: 40px;
+}
+
+.navbar .item {
   flex-grow: 1;
 }
 
@@ -32,6 +37,6 @@
   width: 40px;
 }
 
-.navbar-link:hover{
-color:rgb(242, 8, 156);
+.navbar-link:hover {
+  color: #c41e3a;
 }

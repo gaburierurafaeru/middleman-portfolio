@@ -1,41 +1,38 @@
-.about-container{
+.about-container {
   text-align: center;
-  background-color:white;
-  width:100%;
+  background-color: rgb(254, 254, 254);
+  width: 100%;
   margin-top: 50px;
   color: rgb(242, 8, 156);
 }
 
-.image-container{
+.image-container {
   width: 200px;
   border-radius: 50%;
-
 }
 
 .row {
-width:100%;
-align-items: center;
+  width: 100%;
+  align-items: center;
 }
 
-a{
-  color:rgb(242, 8, 156);
+a {
+  color: rgb(242, 8, 156);
   text-decoration: none;
-
 }
 
 .button-link {
   display: inline-block;
   padding: 10px 20px; /* Adjust padding as needed */
   background-color: white; /* Button background color */
-  color:rgb(242, 8, 156); /* Button text color */
+  color: rgb(242, 8, 156); /* Button text color */
   text-decoration: none;
   border: 1px solid rgb(242, 8, 156); /* Button border */
   border-radius: 50px; /* Optional: Rounded corners */
   transition: background-color 0.3s ease; /* Smooth transition effect */
-
 }
 
 .button-link:hover {
-  color:white; /* Button background color on hover */
+  color: white; /* Button background color on hover */
   background-color: rgb(242, 8, 156);
 }

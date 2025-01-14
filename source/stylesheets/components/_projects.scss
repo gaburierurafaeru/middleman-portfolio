@@ -1,3 +1,9 @@
+.project-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-title {
   color: rgb(242, 8, 156);
   text-align: center;
@@ -10,12 +16,6 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 30px;
-}
-
-.project-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .flipit-project-card {

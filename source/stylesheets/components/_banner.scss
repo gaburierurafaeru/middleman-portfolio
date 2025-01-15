@@ -3,20 +3,12 @@
 }
 
 .project-link {
-  display: inline-flex;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  gap: 10px;
-  border-radius: 31px;
-  background: #c41e3a;
-  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #fefefe;
+  color: black;
   font-family: Dosis;
   font-size: 25px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   margin: 30px auto;
+  letter-spacing: 10px;
 }

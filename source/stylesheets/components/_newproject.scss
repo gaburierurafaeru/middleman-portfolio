@@ -29,13 +29,13 @@
   width: 225px;
   height: 410px;
   border-radius: 29px;
+  /*padding: 42px;*/
   background: #fefefe;
   box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25) inset,
     -1px -1px 4px 0px rgba(0, 0, 0, 0.25) inset;
   border-radius: 29px;
   z-index: 1;
   text-align: center;
-  font-family: "Dosis", sans-serif;
 }
 
 .new-content {
@@ -50,11 +50,55 @@
 
 h1 {
   color: #000;
-
+  margin-top: 42px;
   font-family: Dosis;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1.6px;
+}
+
+h2 {
+  color: #000;
+  font-family: Dosis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  margin-bottom: 33px;
+}
+
+.description {
+  width: 154px;
+  height: 117px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Dosis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  text-align: left;
+  margin-left: 34px;
+}
+
+.case-study-button {
+  margin-top: 66px;
+  background: #c41e3a;
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fefefe;
+  font-family: Dosis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.1px;
+  border-radius: 14px;
 }

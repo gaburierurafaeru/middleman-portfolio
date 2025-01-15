@@ -1,21 +1,25 @@
-.bio-container{
+.bio-container {
   text-align: left;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   margin-top: 50px;
   color: black;
   padding: 20px;
   border-radius: 5%;
   border-width: 5px;
-font-size: 17px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
 }
 
-.row{
-  background-image: url('../images/projects/leopard.png');
+.row {
+  background-image: url("../images/projects/leopard.png");
   background-size: cover; /* This property ensures the image covers the entire element */
   background-repeat: no-repeat; /* This property prevents the image from repeating */
-  background-position: center center;/* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-position: center center; /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
 }
-
 
 // .bio-cards{
 //     width: 200px;

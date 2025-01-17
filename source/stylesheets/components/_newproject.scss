@@ -4,6 +4,8 @@
   align-items: center;
   height: 100vh; /* Full viewport height */
   overflow: hidden;
+  width: 1024px; /* Fixed width */
+  margin: 0 auto; /* Center */
 }
 
 .new-card-container {

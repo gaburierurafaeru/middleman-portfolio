@@ -1,9 +1,19 @@
+// since the div called "banner" is empty, if we don't set an especific height, its height is gonna be "0".
 .banner {
-  width: 1440px;
-  height: 100%; /* Full height */
-  overflow: hidden;
+  width: 100vw;
+  height: 683px; /* Full height */
+  background-size: cover;
+  background-image: url("../images/Banner1801.png");
 }
 
+@media (max-width: 768px) {
+  .banner {
+    width: 100vw; /* Full width of the screen */
+    height: 867px; /* Adjust height proportionally */
+    background-image: url("../images/mobile-banner2001.png");
+    background-size: cover;
+  }
+}
 .project-link {
   color: #010101;
   font-family: Nunito;

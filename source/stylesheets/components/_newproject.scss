@@ -114,7 +114,7 @@ h2 {
     height: fit-content;
   }
   .parent-container {
-    width: 100%;
+    width: 100vw;
     height: fit-content;
   }
   .new-card-container {
@@ -126,11 +126,16 @@ h2 {
   .responsive-image {
     object-fit: cover; /* Options: 'contain', 'cover', 'fill', or 'none' */
     border-radius: 37px; /* Match the container's border-radius */
-    width: 280px;
+    width: 300px;
     height: 315.2px;
   }
   .new-overlay-card {
     width: 90%;
     height: 348px;
+  }
+  .description {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
   }
 }

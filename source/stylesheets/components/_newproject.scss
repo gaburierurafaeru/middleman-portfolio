@@ -109,14 +109,15 @@ h2 {
 }
 
 .project-header {
-  color: #010101;
-  font-family: Nunito;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-align: center;
   margin-top: 70px;
+  color: #010101;
+  font-family: Dosis;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.6px;
 }
 @media (max-width: 768px) {
   #newproject {

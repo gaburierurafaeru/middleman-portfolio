@@ -2,11 +2,12 @@
   text-align: center;
   background-color: rgb(254, 254, 254);
   width: 100%;
+  margin-top: 50px;
+  color: rgb(242, 8, 156);
   margin: 0;
   padding-top: 115px; /* Adjust based on your header height */
   margin-top: -115px;
 }
-
 @media (max-width: 768px) {
   .about-container {
     padding-top: 0; /* Adjust based on your header height */
@@ -15,6 +16,7 @@
 }
 
 .image-container {
+  width: 297px;
   width: 350px;
   border-radius: 50%;
 }

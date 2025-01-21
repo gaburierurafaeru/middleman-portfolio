@@ -8,6 +8,8 @@
   margin: 20px auto;
   max-width: 1200px; /* Optional: Limit container width */
   padding: 20px;
+  padding-top: 60px; /* Adjust based on your header height */
+  margin-top: -60px;
 }
 
 /* Left column (image) */
@@ -60,7 +62,8 @@
 @media (max-width: 768px) {
   .content-container {
     flex-direction: column; /* Stack columns on top of each other */
-    text-align: center; /* Center text on smaller screens */
+    text-align: center;
+    margin-top: 50px; /* Center text on smaller screens */
   }
 
   .photo-container-test,

@@ -13,6 +13,10 @@
 }
 
 .parent-container:nth-child(2) .new-card-container {
+  background: linear-gradient(0deg, #e296c7 0%, #c41e3a 100%);
+}
+
+.parent-container:nth-child(3) .new-card-container {
   background: linear-gradient(0deg, #9e3b87 0%, #c41e3a 100%);
 }
 
@@ -20,8 +24,12 @@
   background: #ffb847;
 }
 
-.parent-container:nth-child(2) .case-study-button {
+.parent-container:nth-child(3) .case-study-button {
   background: #9e3b87;
+}
+
+.parent-container:nth-child(2) .case-study-button {
+  background: #e296c7;
 }
 
 .new-card-container {

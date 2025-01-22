@@ -3,14 +3,14 @@
   width: 100vw;
   height: 868px; /* Full height */
   background-size: cover;
-  background-image: url("../images/Banner1801.png");
+  background-image: url("../images/newbanner.png");
 }
 
 @media (max-width: 768px) {
   .banner {
     width: 100vw; /* Full width of the screen */
     height: 867px; /* Adjust height proportionally */
-    background-image: url("../images/mobile-banner2001.png");
+    background-image: url("../images/bannermobile1408.png");
     background-size: cover;
   }
 }

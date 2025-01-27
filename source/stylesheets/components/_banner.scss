@@ -3,14 +3,14 @@
   width: 100vw;
   height: 868px; /* Full height */
   background-size: cover;
-  background-image: url("../images/Frame 2329.png");
+  background-image: url("../images/Desktop-banner.png");
 }
 
 @media (max-width: 768px) {
   .banner {
     width: 100vw; /* Full width of the screen */
     height: 867px; /* Adjust height proportionally */
-    background-image: url("../images/productdesigner-mobilebanner.png");
+    background-image: url("../images/hello-mobilebanner.png");
     background-size: cover;
   }
 }

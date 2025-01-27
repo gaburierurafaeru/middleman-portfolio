@@ -1,25 +1,15 @@
 .footer {
-  background: rgba(0, 0, 0, 0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 90px;
-  margin-top: 30px;
-}
-.footer-links {
-  text-decoration: none;
-  font-size: 35px;
-  // padding: 40px;
-  align-items: center;
-  // margin:40px;
-  height: 100%;
-  display: flex;
-  a {
-    margin: 20px;
-  }
+  width: 100vw;
+  height: 214px; /* Full height */
+  background-size: cover;
+  background-image: url("../images/desktopfooter1235.png");
 }
 
-.footer-links a:hover {
-  opacity: 1;
+@media (max-width: 768px) {
+  .footer {
+    width: 100vw; /* Full width of the screen */
+    height: 150px; /* Adjust height proportionally */
+    background-image: url("../images/mobilefooter1235.png");
+    background-size: cover;
+  }
 }

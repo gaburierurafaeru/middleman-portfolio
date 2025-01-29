@@ -59,3 +59,11 @@ a i {
 a i:hover {
   transform: translateY(-5px);
 }
+
+@media (max-width: 768px) {
+  .redpart p {
+    margin: 0;
+    font-family: "Parisienne", serif;
+    font-size: 15px;
+  }
+}

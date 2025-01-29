@@ -61,7 +61,9 @@
   .content-container {
     flex-direction: column; /* Stack columns on top of each other */
     text-align: center;
-    margin-top: 50px; /* Center text on smaller screens */
+    margin-top: 50px;
+    padding-top: 50px; /* Adjust based on your header height */
+    margin-top: -50px; /* Center text on smaller screens */
   }
 
   .photo-container-test,

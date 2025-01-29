@@ -1,6 +1,7 @@
 #work {
   scroll-margin-top: 50px;
 }
+
 .parent-container {
   display: flex;
   justify-content: center;
@@ -188,6 +189,10 @@ h2 {
   }
   .case-study-button {
     margin: 35px;
+  }
+
+  #work {
+    scroll-margin-top: 70px;
   }
 }
 

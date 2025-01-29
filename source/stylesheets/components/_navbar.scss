@@ -11,9 +11,35 @@
   text-decoration: none;
   color: #c41e3a;
   font-family: "Dosis", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin: 7px;
   transition: color 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar a::after,
+.navbar a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, rgba(94, 14, 28, 1));
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.navbar a::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.navbar a:hover::after,
+.navbar a:hover::before {
+  transform: scaleX(1);
 }
 
 .navbar-about {
@@ -27,16 +53,4 @@
 .flexbox {
   display: flex;
   align-items: center;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
-.navbar-link:hover {
-  color: #c41e3a;
 }

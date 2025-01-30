@@ -36,8 +36,9 @@
   background: #e296c7;
 }
 .parent-container:nth-of-type(3) .responsive-image {
-  width: 420px;
+  width: 400px;
   height: auto;
+  margin-left: 10px;
 }
 
 .new-card-container {
@@ -56,7 +57,7 @@
 }
 .responsive-image {
   width: 400px;
-  height: 500px;
+  height: auto;
   object-fit: cover; /* Options: 'contain', 'cover', 'fill', or 'none' */
   border-radius: 37px; /* Match the container's border-radius */
 }
@@ -201,8 +202,10 @@ h2 {
   }
 
   .parent-container:nth-of-type(3) .responsive-image {
-    width: 300px;
+    width: 350px;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 

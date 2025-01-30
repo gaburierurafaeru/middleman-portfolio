@@ -5,10 +5,9 @@
   gap: 20px; /* Space between columns */
   align-items: center; /* Align items vertically */
   justify-content: center; /* Center content horizontally if needed */
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 1200px; /* Optional: Limit container width */
   padding: 20px;
-  scroll-margin-top: 50px;
   margin-bottom: 150px;
 }
 
@@ -60,7 +59,8 @@
   .content-container {
     flex-direction: column; /* Stack columns on top of each other */
     text-align: center;
-    scroll-margin-top: 70px;
+    padding-top: 70px; /* Adjust based on your header height */
+    margin-top: -70px;
   }
 
   .photo-container-test,

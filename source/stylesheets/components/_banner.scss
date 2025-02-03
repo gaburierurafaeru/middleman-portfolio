@@ -1,9 +1,9 @@
 // since the div called "banner" is empty, if we don't set an especific height, its height is gonna be "0".
 .banner {
   width: 100vw;
-  height: 868px; /* Full height */
+  height: 773px; /* Full height */
   background-size: cover;
-  background-image: url("../images/UXbannerdesktop.png");
+  background-image: url("../images/bannertest.png");
 }
 
 @media (max-width: 768px) {

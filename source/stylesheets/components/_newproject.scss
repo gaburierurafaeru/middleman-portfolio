@@ -43,7 +43,7 @@
 }
 
 .parent-container:nth-of-type(3) .responsive-image {
-  width: 375px;
+  width: 400px;
   height: auto;
   margin-left: 10px;
 }
@@ -187,8 +187,10 @@ h2 {
   .responsive-image {
     object-fit: cover; /* Options: 'contain', 'cover', 'fill', or 'none' */
     border-radius: 37px; /* Match the container's border-radius */
-    width: 350px;
-    height: 394px;
+    width: 280px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   .new-overlay-card {
     width: 90%;

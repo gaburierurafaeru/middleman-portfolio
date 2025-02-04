@@ -36,10 +36,8 @@
   background: #e296c7;
 }
 .parent-container:nth-of-type(3) .case-study-button:hover {
-  background: rgb(254, 254, 254);
-  color: #e296c7;
-  border-color: #e296c7;
-  border: 2px solid;
+  background: linear-gradient(0deg, #e296c7 0%, #c41e3a 100%);
+  color: #fefefe;
 }
 
 .parent-container:nth-of-type(3) .responsive-image {

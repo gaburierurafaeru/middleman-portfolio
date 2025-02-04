@@ -5,11 +5,12 @@
 .parent-container {
   display: flex;
   justify-content: center;
-
-  height: 100vh; /* Full viewport height */
+  width: 100%;
+  height: auto; /* Full viewport height */
   // overflow: hidden;
   width: 1024px; /* Fixed width */
   margin: 0 auto; /* Center */
+  margin-bottom: 100px;
 }
 
 // Styles for MANOS LIBRES (Child 1)

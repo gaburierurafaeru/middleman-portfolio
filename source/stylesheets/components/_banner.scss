@@ -1,15 +1,15 @@
 // since the div called "banner" is empty, if we don't set an especific height, its height is gonna be "0".
-.banner {
+/*.banner {
   width: 100vw;
-  height: 773px; /* Full height */
+  height: 773px;
   background-size: cover;
   background-image: url("../images/bannertest.png");
 }
 
 @media (max-width: 768px) {
   .banner {
-    width: 100vw; /* Full width of the screen */
-    height: 867px; /* Adjust height proportionally */
+    width: 100vw;
+    height: 867px; /* Adjust height proportionally
     background-image: url("../images/UXmobilebanner.png");
     background-size: cover;
   }
@@ -23,4 +23,57 @@
   line-height: normal;
   text-align: center;
   margin-top: 50px;
+}
+*/
+
+.banner {
+  background: linear-gradient(
+    -45deg,
+    #5e0e1c,
+    #ffb847,
+    #c41e3a,
+    #e296c7,
+    #9e3b87
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 4rem !important;
+  color: rgb(254, 254, 254);
+  font-family: "Parisienne", serif;
+}
+
+.banner p {
+  text-align: center;
+  font-size: 1.5rem !important;
+  color: rgb(254, 254, 254);
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 3rem !important;
+  }
+  .banner p {
+    font-size: 1rem !important;
+  }
 }

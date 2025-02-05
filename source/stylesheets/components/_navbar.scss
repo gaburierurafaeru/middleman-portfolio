@@ -1,18 +1,19 @@
 .navbar {
   justify-content: right;
   background: rgba(0, 0, 0, 0);
-  color: white;
+  color: rgb(254, 254, 254);
   height: 90px;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #c41e3a;
+  color: rgb(254, 254, 254);
   font-family: "Dosis", sans-serif;
   font-size: 25px;
-  margin: 7px;
+  margin-left: 50px;
+  margin-right: 50px;
   transition: color 0.3s ease;
   position: relative;
   display: inline-block;
@@ -58,12 +59,11 @@
 @media (max-width: 768px) {
   .navbar a {
     text-decoration: none;
-    color: #c41e3a;
-    font-family: "Dosis", sans-serif;
     font-size: 20px;
-    margin: 7px;
     transition: color 0.3s ease;
     position: relative;
     display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }

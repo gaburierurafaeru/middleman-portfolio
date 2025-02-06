@@ -166,7 +166,7 @@ h2 {
     height: fit-content;
   }
   .parent-container {
-    width: 100vw;
+    width: 98%;
     height: fit-content;
     margin-bottom: 90px;
   }
@@ -219,4 +219,10 @@ h2 {
 // DELETING EXTRA PADDING CREATED BY TEMPLATE!
 .container {
   padding: 0;
+}
+
+@media (max-width: 578px) {
+  .parent-container {
+    width: 100vw !important;
+  }
 }

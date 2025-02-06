@@ -103,7 +103,6 @@ h1 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: 1.6px;
 }
 
 h2 {
@@ -113,7 +112,6 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 2.1px;
   margin-bottom: 33px;
 }
 
@@ -127,9 +125,9 @@ h2 {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
-  letter-spacing: 2.1px;
   text-align: left;
   margin-left: 34px;
+  line-height: 1.5;
 }
 
 .case-study-button {
@@ -212,6 +210,9 @@ h2 {
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .project-header {
+    font-size: 20px;
   }
 }
 

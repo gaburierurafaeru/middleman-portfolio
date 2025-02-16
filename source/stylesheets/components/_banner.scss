@@ -25,25 +25,23 @@
   margin-top: 50px;
 }
 */
-
+/*
 .banner {
-  background: linear-gradient(
-    -45deg,
-    #5e0e1c,
-    #ffb847,
-    #c41e3a,
-    #e296c7,
-    #9e3b87
-  );
+  /*background: linear-gradient(-45deg, #fefefe, #f9f9f9, #f5f5f5, #ececec);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height: 100vh;
+
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center horizontally */
-  justify-content: center; /* Center vertically */
+  flex-direction: column; /* Keeps row layout
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  background: #fefefe;
 }
 
+/*
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -56,26 +54,162 @@
   }
 }
 
-.banner h1 {
+
+.banner h2 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  gap: 10px;
   text-align: center;
-  font-size: 4rem !important;
-  color: rgb(254, 254, 254);
-  font-family: "Parisienne", serif;
+  color: #010101;
+  margin: 0;
+}
+
+.banner a {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #c41e3a;
+  color: #fefefe;
+  font-family: Dosis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 50px;
+}
+.hello-world {
+  font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  color: #010101;
+  margin: 0;
+  padding: 0;
+}
+
+.im-gabrielle {
+  font-family: "Parisienne", cursive;
+  font-size: 90px;
+  color: #010101;
+  margin: 0;
+  padding: 0;
+}
+
+.hello-world,
+.im-gabrielle {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .banner p {
-  text-align: center;
-  font-size: 1.5rem !important;
-  color: rgb(254, 254, 254);
+  text-align: left;
+  font-size: 40px !important;
+  color: #010101;
+  font-weight: 100;
+  line-height: normal;
+  left: 50%;
+}
+
+.view-my-work {
+  margin: 20px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {
-  .banner h1 {
+  .banner h2 {
     font-size: 3rem !important;
     line-height: 0.9;
   }
   .banner p {
-    font-size: 0.9rem !important;
+    font-size: 25px !important;
     margin-top: 10px;
   }
+  .hello-world {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .im-gabrielle {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+}
+*/
+
+.banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #fefefe;
+}
+
+.banner-text-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-end; /* Pushes content to the bottom */
+  position: relative;
+}
+
+.text-content {
+  width: 100%; /* Full width to control placement */
+  position: absolute;
+  bottom: 10%;
+}
+
+.banner-image-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.intro-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text-container h2 {
+  font-size: 70px;
+  font-family: Parisienne;
+  color: #373737;
+  padding-left: 12%; /* Moves it to the left */
+  line-height: 1em;
+}
+
+.banner-text-container p {
+  font-size: 30px;
+  font-family: Dosis;
+  color: #373737;
+  padding-left: 30%; /* Moves it more to the right */
+  line-height: 1.2em;
+}
+
+.banner-text-container h2,
+.banner-text-container p {
+  margin-top: 0; /* Remove default margins */
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; /* Ensure no extra padding */
 }

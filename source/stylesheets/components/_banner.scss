@@ -213,3 +213,13 @@
   margin-bottom: 0;
   padding-bottom: 0; /* Ensure no extra padding */
 }
+
+@media (max-width: 768px) {
+  .banner-text-container h2 {
+    font-size: 50px;
+  }
+
+  .banner-text-container p {
+    font-size: 20px;
+  }
+}

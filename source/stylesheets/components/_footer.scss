@@ -39,6 +39,9 @@
   margin: 0;
   color: #c41e3a;
   font-size: 25px;
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .greypart p {
@@ -48,7 +51,9 @@
 
 .redpart p {
   margin: 0;
-  font-family: "Parisienne", serif;
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
 }
 
@@ -71,7 +76,6 @@ a i:hover {
 @media (max-width: 768px) {
   .redpart p {
     margin: 0;
-    font-family: "Parisienne", serif;
     font-size: 15px;
   }
 }

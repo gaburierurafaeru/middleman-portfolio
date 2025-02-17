@@ -192,17 +192,19 @@
 
 .banner-text-container h2 {
   font-size: 70px;
-  font-family: Parisienne;
+  font-family: "Space Mono", serif;
+  font-weight: 400;
+  font-style: normal;
   color: #373737;
   padding-left: 12%; /* Moves it to the left */
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .banner-text-container p {
   font-size: 30px;
   font-family: Dosis;
   color: #373737;
-  padding-left: 30%; /* Moves it more to the right */
+  padding-left: 21%; /* Moves it more to the right */
   line-height: 1.2em;
 }
 

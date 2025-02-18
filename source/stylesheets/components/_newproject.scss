@@ -14,6 +14,9 @@
   margin-top: 120px;
 }
 
+.case-study-button {
+  transition: transform 0.3s ease;
+}
 // Styles for MANOS LIBRES (Child 1)
 .parent-container:nth-of-type(1) .new-card-container {
   background: linear-gradient(0deg, #9e3b87 0%, #c41e3a 100%);
@@ -36,9 +39,8 @@
 }
 .parent-container:nth-of-type(3) .case-study-button {
   background: #e296c7;
-  transition: background-color 0.7s ease, transform 0.3s ease;
 }
-.parent-container:nth-of-type(3) .case-study-button:hover {
+.case-study-button:hover {
   transform: scale(1.05);
   color: #fefefe;
 }

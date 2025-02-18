@@ -216,7 +216,7 @@
   padding-bottom: 0; /* Ensure no extra padding */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .banner-text-container h2 {
     font-size: 50px;
   }
@@ -228,7 +228,7 @@
 
 @media (min-height: 950px) and (min-width: 1500px) {
   .text-content {
-    bottom: 30%;
+    bottom: 20%;
   }
   .banner-text-container h2 {
     font-size: 80px;
@@ -236,5 +236,6 @@
 
   .banner-text-container p {
     font-size: 40px;
+    padding-right: 20%;
   }
 }

@@ -225,3 +225,16 @@
     font-size: 20px;
   }
 }
+
+@media (min-height: 950px) and (min-width: 1500px) {
+  .text-content {
+    bottom: 30%;
+  }
+  .banner-text-container h2 {
+    font-size: 80px;
+  }
+
+  .banner-text-container p {
+    font-size: 40px;
+  }
+}

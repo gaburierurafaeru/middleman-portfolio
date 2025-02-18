@@ -176,14 +176,17 @@
   bottom: 10%;
 }
 
-.banner-image-container {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
+.banner-image-container img {
+  display: none; /* Hide the <img> element */
 }
 
+.banner-image-container {
+  background-image: url("../images/App Design Mockup 7.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+}
 .intro-banner {
   width: 100%;
   height: 100%;
@@ -226,7 +229,6 @@
     font-size: 20px;
     padding-right: 10%;
   }
-
   .banner-image-container {
     background-image: url("../images/App Design Mockup 5.png");
   }

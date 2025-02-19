@@ -220,7 +220,7 @@
   padding-bottom: 0; /* Ensure no extra padding */
 }
 
-@media (max-width: 635px) {
+@media (max-width: 635px) and (max-height: 900px) {
   .banner-text-container h2 {
     font-size: 50px;
     line-height: 1em;
@@ -235,9 +235,6 @@
   .banner-image-container {
     background-image: url("../images/App Design Mockup 5.png");
   }
-  .text-content {
-    bottom: 5%;
-  }
 }
 
 @media (min-height: 950px) and (min-width: 1500px) {
@@ -250,5 +247,6 @@
 
   .banner-text-container p {
     font-size: 40px;
+    max-width: 80%;
   }
 }

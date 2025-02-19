@@ -209,6 +209,7 @@
   color: #373737;
   padding-left: 21%; /* Moves it more to the right */
   line-height: 1.2em;
+  max-width: 70%;
 }
 
 .banner-text-container h2,
@@ -223,17 +224,19 @@
   .banner-text-container h2 {
     font-size: 50px;
     line-height: 1em;
+    margin-bottom: 5px;
   }
 
   .banner-text-container p {
     font-size: 20px;
     padding-right: 10%;
+    max-width: 100%;
   }
   .banner-image-container {
     background-image: url("../images/App Design Mockup 5.png");
   }
-  p {
-    max-width: 90%; /* Adjusts text width, indirectly affecting breaks */
+  .text-content {
+    bottom: 5%;
   }
 }
 

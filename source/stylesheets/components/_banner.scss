@@ -270,7 +270,20 @@
   }
 }
 
-@media (min-height: 1000px) and (max-width: 700px) {
+@media (min-width: 1100px) and (max-height: 630px) {
+  .banner-text-container p {
+    max-width: 100%;
+  }
+  .banner-text-container h2 {
+    padding-left: 6%;
+  }
+
+  .banner-text-container p {
+    padding-left: 11%;
+  }
+}
+
+@media (min-height: 900px) and (max-width: 700px) {
   .banner-image-container {
     height: 60%;
   }

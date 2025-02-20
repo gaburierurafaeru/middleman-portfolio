@@ -201,6 +201,7 @@
   color: #373737;
   padding-left: 12%; /* Moves it to the left */
   line-height: 1.2em;
+  max-width: 90%;
 }
 
 .banner-text-container p {
@@ -248,5 +249,31 @@
   .banner-text-container p {
     font-size: 40px;
     max-width: 80%;
+  }
+
+  .banner-text-container {
+    height: 40%;
+  }
+
+  .banner-image-container {
+    height: 60%;
+  }
+}
+
+@media (max-width: 400px) and (max-height: 700px) {
+  .banner-text-container h2 {
+    font-size: 40px;
+  }
+  .banner-text-container p {
+    font-size: 15px;
+  }
+  .text-content {
+    bottom: 5%;
+  }
+}
+
+@media (min-width: 1000px) and (max-height: 700px) {
+  .banner-text-container p {
+    max-width: 100%;
   }
 }

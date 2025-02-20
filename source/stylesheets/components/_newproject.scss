@@ -10,19 +10,30 @@
   // overflow: hidden;
 
   margin: 0 auto; /* Center */
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   margin-top: 120px;
 }
 
 .case-study-button {
   transition: transform 0.3s ease;
 }
-// Styles for MANOS LIBRES (Child 1)
+
+// Styles for ISI BCN (Child 1)
 .parent-container:nth-of-type(1) .new-card-container {
-  background: linear-gradient(0deg, #9e3b87 0%, #c41e3a 100%);
+  background: linear-gradient(0deg, #e296c7 0%, #c41e3a 100%);
 }
 .parent-container:nth-of-type(1) .case-study-button {
-  background: #9e3b87;
+  background: #e296c7;
+}
+.case-study-button:hover {
+  transform: scale(1.05);
+  color: #fefefe;
+}
+
+.parent-container:nth-of-type(1) .responsive-image {
+  width: 400px;
+  height: auto;
+  margin-left: 10px;
 }
 
 // Styles for BA(R)LANCE (Child 2)
@@ -33,24 +44,13 @@
   background: #ffb847;
 }
 
-// Styles for ISI BCN (Child 3)
+// Styles for MANOS LIBRES (Child 3)
 .parent-container:nth-of-type(3) .new-card-container {
-  background: linear-gradient(0deg, #e296c7 0%, #c41e3a 100%);
+  background: linear-gradient(0deg, #9e3b87 0%, #c41e3a 100%);
 }
 .parent-container:nth-of-type(3) .case-study-button {
-  background: #e296c7;
+  background: #9e3b87;
 }
-.case-study-button:hover {
-  transform: scale(1.05);
-  color: #fefefe;
-}
-
-.parent-container:nth-of-type(3) .responsive-image {
-  width: 400px;
-  height: auto;
-  margin-left: 10px;
-}
-
 .new-card-container {
   display: flex;
   flex-direction: row;
@@ -175,7 +175,7 @@ h2 {
   .parent-container {
     width: 98%;
     height: fit-content;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
   .new-card-container {
     flex-direction: column;

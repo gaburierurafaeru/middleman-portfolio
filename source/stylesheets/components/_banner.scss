@@ -240,7 +240,7 @@
 
 @media (min-height: 950px) and (min-width: 1500px) {
   .text-content {
-    bottom: 20%;
+    bottom: 15%;
   }
   .banner-text-container h2 {
     font-size: 80px;
@@ -264,9 +264,7 @@
   .banner-text-container h2 {
     font-size: 40px;
   }
-  .banner-text-container p {
-    font-size: 15px;
-  }
+
   .text-content {
     bottom: 5%;
   }
@@ -275,5 +273,14 @@
 @media (min-width: 1000px) and (max-height: 700px) {
   .banner-text-container p {
     max-width: 100%;
+  }
+}
+
+@media (min-height: 1000px) and (max-width: 700px) {
+  .banner-image-container {
+    height: 60%;
+  }
+  .banner-text-container p {
+    max-width: 90%;
   }
 }

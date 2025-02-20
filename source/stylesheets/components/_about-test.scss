@@ -12,6 +12,7 @@
   max-width: 1200px; /* Optional: Limit container width */
   padding: 20px;
   margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 /* Left column (image) */
@@ -62,12 +63,13 @@
   .content-container {
     flex-direction: column; /* Stack columns on top of each other */
     text-align: center;
-    padding-top: 70px; /* Adjust based on your header height */
-    margin-top: -70px;
   }
 
   .photo-container-test,
   .bio-container-test {
     max-width: 100%;
+  }
+  #aboutme {
+    scroll-margin-top: 100px;
   }
 }

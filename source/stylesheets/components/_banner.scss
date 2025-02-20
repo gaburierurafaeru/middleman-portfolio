@@ -260,9 +260,9 @@
   }
 }
 
-@media (min-width: 1100px) and (max-height: 630px) {
+@media (min-width: 1100px) and (max-height: 635px) {
   .banner-text-container p {
-    max-width: 100%;
+    max-width: 90%;
   }
   .banner-text-container h2 {
     padding-left: 6%;
@@ -278,6 +278,9 @@
     height: 60%;
   }
   .banner-text-container p {
+    max-width: 80%;
+  }
+  .banner-text-container h2 {
     max-width: 80%;
   }
   .banner-text-container {

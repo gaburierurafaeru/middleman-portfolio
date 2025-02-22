@@ -225,15 +225,17 @@
   .banner-text-container h2 {
     font-size: 45px;
     line-height: 1em;
-    margin-bottom: 5px;
   }
 
   .banner-text-container p {
     font-size: 20px;
-    padding-right: 10%;
+    max-width: 90%;
   }
   .banner-image-container {
     background-image: url("../images/mobile-coolnewbanner.png");
+  }
+  .text-content {
+    bottom: 5%;
   }
 }
 

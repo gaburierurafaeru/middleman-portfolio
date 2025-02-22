@@ -60,7 +60,7 @@
   width: 749px;
   height: 482px;
   /*border-radius: 37px;*/
-  border-radius: 1px;
+  border-radius: 18px;
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
   background: linear-gradient(0deg, #ffb847 0%, #c41e3a 100%);
   transition: transform 0.5s ease;
@@ -68,8 +68,7 @@
 .responsive-image {
   width: 400px;
   height: auto;
-  object-fit: cover; /* Options: 'contain', 'cover', 'fill', or 'none' */
-  border-radius: 37px; /* Match the container's border-radius */
+  object-fit: cover; /* Options: 'contain', 'cover', 'fill', or 'none' */ /* Match the container's border-radius */
 }
 
 .new-overlay-card {
@@ -80,7 +79,7 @@
   width: 225px;
   height: 410px;
   /*border-radius: 29px;*/
-  border-radius: 1px;
+  border-radius: 14px;
   /*padding: 42px;*/
   background: #fefefe;
   box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25) inset,
@@ -96,11 +95,11 @@
   transform: translate(-50%, -50%);
   font-family: Arial, sans-serif;
   text-align: center;
-  color: #333;
+  color: #373737;
 }
 
 h1 {
-  color: #010101;
+  color: #373737;
   margin-top: 42px;
   font-family: "Space Mono", serif;
   font-weight: 400;
@@ -112,7 +111,7 @@ h1 {
 }
 
 h2 {
-  color: #737373;
+  color: #c41e3a;
   font-family: "Space Mono", serif;
   font-weight: 400;
   font-style: normal;
@@ -120,14 +119,14 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 33px;
+  margin-bottom: 15px;
 }
 
 .description {
   width: 154px;
   height: 117px;
   flex-shrink: 0;
-  color: #010101;
+  color: #373737;
   font-family: Dosis;
   font-size: 14px;
   font-style: normal;
@@ -139,7 +138,7 @@ h2 {
 }
 
 .case-study-button {
-  margin-top: 66px;
+  margin-top: 80px;
   display: inline-flex;
   padding: 10px 20px;
   justify-content: center;
@@ -152,13 +151,13 @@ h2 {
   font-weight: 600;
   line-height: normal;
   /*border-radius: 50px;*/
-  border-radius: 1px;
+  border-radius: 7px;
 }
 
 .project-header {
   text-align: center;
   margin-top: 100px;
-  color: #010101;
+  color: #373737;
   font-family: Dosis;
   font-size: 25px;
   font-style: normal;

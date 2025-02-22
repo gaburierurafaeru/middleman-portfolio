@@ -202,6 +202,7 @@
   padding-left: 5%; /* Moves it to the left */
   line-height: 1.2em;
   max-width: 90%;
+  margin-bottom: 10px;
 }
 
 .banner-text-container p {
@@ -213,12 +214,17 @@
   max-width: 90%;
 }
 
-.banner-text-container h2,
+.banner-text-container h2 {
+  margin-top: 0; /* Remove default margins */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .banner-text-container p {
   margin-top: 0; /* Remove default margins */
   padding-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0; /* Ensure no extra padding */
+  padding-bottom: 0;
+  margin-bottom: 0; /* Ensure no extra padding */
 }
 
 @media (max-width: 700px) {
@@ -227,7 +233,6 @@
     text-align: center; /* Centers text horizontally */
     padding-left: 0; /* Removes left padding to ensure centering */
     max-width: 100%;
-    margin-bottom: 13px;
   }
   .banner-text-container p {
     max-width: 100%;

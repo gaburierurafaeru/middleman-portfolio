@@ -181,7 +181,7 @@
 }
 
 .banner-image-container {
-  background-image: url("../images/desktop-coolnewbanner.png");
+  background-image: url("../images/desktopbanner-adjuster.png");
   background-size: cover;
   background-position: top center;
   width: 100%;
@@ -199,18 +199,18 @@
   font-weight: 400;
   font-style: normal;
   color: #373737;
-  padding-left: 12%; /* Moves it to the left */
+  padding-left: 5%; /* Moves it to the left */
   line-height: 1.2em;
   max-width: 90%;
 }
 
 .banner-text-container p {
-  font-size: 30px;
+  font-size: 25px;
   font-family: Dosis;
   color: #373737;
-  padding-left: 21%; /* Moves it more to the right */
+  padding-left: 11%; /* Moves it more to the right */
   line-height: 1.2em;
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .banner-text-container h2,

@@ -223,13 +223,13 @@
 
 @media (max-width: 635px) {
   .banner-text-container h2 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1em;
     margin-bottom: 5px;
   }
 
   .banner-text-container p {
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 10%;
     max-width: 100%;
   }
@@ -242,12 +242,8 @@
   .text-content {
     bottom: 15%;
   }
-  .banner-text-container h2 {
-    font-size: 80px;
-  }
 
   .banner-text-container p {
-    font-size: 40px;
     max-width: 80%;
   }
 
@@ -264,13 +260,6 @@
   .banner-text-container p {
     max-width: 90%;
   }
-  .banner-text-container h2 {
-    padding-left: 6%;
-  }
-
-  .banner-text-container p {
-    padding-left: 11%;
-  }
 }
 
 @media (min-height: 900px) and (max-width: 700px) {
@@ -278,10 +267,10 @@
     height: 60%;
   }
   .banner-text-container p {
-    max-width: 80%;
+    max-width: 90%;
   }
   .banner-text-container h2 {
-    max-width: 80%;
+    max-width: 90%;
   }
   .banner-text-container {
     height: 40%;

@@ -223,16 +223,14 @@
 
 @media (max-width: 400px) {
   .banner-text-container h2 {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1em;
     margin-bottom: 5px;
-    padding: auto;
   }
 
   .banner-text-container p {
     font-size: 20px;
-    padding: auto;
-    max-width: 100%;
+    padding-right: 10%;
   }
   .banner-image-container {
     background-image: url("../images/mobile-coolnewbanner.png");

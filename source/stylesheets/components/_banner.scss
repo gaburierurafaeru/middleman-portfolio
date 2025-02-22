@@ -232,12 +232,15 @@
     max-width: 100%;
     padding-right: 5%;
   }
+  .text-content {
+    align-items: center;
+  }
 }
 @media (max-width: 500px) {
   .banner-text-container h2 {
     font-size: 40px;
     line-height: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
   }
 
   .banner-text-container p {
@@ -249,7 +252,7 @@
     background-image: url("../images/mobile-coolnewbanner.png");
   }
   .text-content {
-    bottom: 10%;
+    bottom: 13%;
     align-items: center;
   }
 }

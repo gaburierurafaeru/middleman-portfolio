@@ -222,6 +222,7 @@
   margin-top: 0; /* Remove default margins */
   padding-top: 0;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
 .banner-text-container p {
@@ -249,6 +250,14 @@
 
   .banner-navbar-space {
     height: 10%;
+  }
+
+  .banner-image-container {
+    height: 50%;
+  }
+
+  .banner-text-container {
+    height: 40%;
   }
 }
 @media (max-width: 500px) {
@@ -284,10 +293,13 @@
   }
 
   .banner-text-container {
-    height: 35%;
+    height: 30%;
   }
   .banner-image-container {
     height: 60%;
+  }
+  .banner-navbar-space {
+    height: 10%;
   }
 }
 

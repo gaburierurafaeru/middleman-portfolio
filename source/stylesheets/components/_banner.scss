@@ -177,7 +177,7 @@
 .text-content {
   width: 100%; /* Full width to control placement */
   position: absolute;
-  bottom: 10%;
+  bottom: 10% !important;
 }
 
 .banner-image-container img {

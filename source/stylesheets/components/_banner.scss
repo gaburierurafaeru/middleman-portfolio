@@ -273,7 +273,7 @@
     background-image: url("../images/mobile-coolnewbanner.png");
   }
   .text-content {
-    bottom: 5%;
+    bottom: 7%;
     align-items: center;
   }
 }
@@ -337,16 +337,9 @@
 
 @media (min-width: 574px) and (max-height: 800px) {
   .text-content {
-    margin-bottom: 5px;
+    bottom: 5%;
   }
   .banner-text-container h2 {
     margin-bottom: 5px;
-    font-size: 60px;
-  }
-  .banner-navbar-space {
-    height: 10%;
-  }
-  .banner-text-container {
-    height: 40%;
   }
 }

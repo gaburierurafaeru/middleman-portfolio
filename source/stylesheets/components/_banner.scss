@@ -260,7 +260,7 @@
     height: 40%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .banner-text-container h2 {
     font-size: 40px;
     line-height: 1em;
@@ -309,7 +309,7 @@
   }
 }
 
-@media (min-width: 1100px) and (max-height: 635px) {
+@media (min-width: 970px) and (max-height: 635px) {
   .banner-text-container p {
     max-width: 90%;
     padding-left: 7%;

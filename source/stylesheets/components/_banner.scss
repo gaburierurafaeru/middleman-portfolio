@@ -177,7 +177,7 @@
 .text-content {
   width: 100%; /* Full width to control placement */
   position: absolute;
-  margin-bottom: 10px;
+  bottom: 10%;
 }
 
 .banner-image-container img {
@@ -273,7 +273,7 @@
     background-image: url("../images/mobile-coolnewbanner.png");
   }
   .text-content {
-    bottom: 8%;
+    bottom: 5%;
     align-items: center;
   }
 }
@@ -316,15 +316,15 @@
     font-size: 65px;
   }
 }
-/*@media (max-width: 650px) and (min-height: 900px) {
+@media (max-width: 650px) and (min-height: 1000px) {
   .banner-text-container {
-    height: 40%;
+    height: 30%;
   }
 
   .banner-image-container {
     height: 60%;
   }
-}*/
+}
 
 @media (max-width: 375px) {
   .banner-text-container h2 {

@@ -118,3 +118,9 @@
     padding-right: 5px;
   }
 }
+
+@media (min-width: 574px) and (max-height: 800px) {
+  .navbar {
+    height: 10%;
+  }
+}

@@ -95,6 +95,7 @@
 
   .navbar {
     padding: 20px 17px 15px 27px;
+    height: 10%;
   }
 
   .navbar h1 {
@@ -106,21 +107,9 @@
   }
 }
 
-@media (max-width: 500px) {
-  .navbar {
-    height: 10%;
-  }
-}
-
 @media (max-width: 380px) {
   .navbar a {
     padding-left: 5px;
     padding-right: 5px;
-  }
-}
-
-@media (min-width: 574px) and (max-height: 800px) {
-  .navbar {
-    height: 10%;
   }
 }

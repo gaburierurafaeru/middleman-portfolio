@@ -331,3 +331,16 @@
     bottom: 5%;
   }
 }
+
+@media (max-width: 650px) and (min-height: 900px) {
+  .banner-image-container {
+    height: 60%;
+  }
+
+  .banner-text-container {
+    height: 30%;
+  }
+  .banner-navbar-space {
+    height: 10%;
+  }
+}

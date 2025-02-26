@@ -1,6 +1,6 @@
 /* Container styling */
 #aboutme {
-  scroll-margin-top: 75px;
+  scroll-margin-top: 110px;
 }
 .content-container {
   display: flex;
@@ -11,7 +11,7 @@
   margin: 30px auto;
   max-width: 1200px; /* Optional: Limit container width */
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-top: 150px;
 }
 
@@ -47,6 +47,8 @@
   text-align: left;
   font-family: "Dosis", sans-serif;
   font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .bold-text {
@@ -65,6 +67,21 @@
 
 .button-link:hover {
   transform: scale(1.05);
+}
+
+.timeline-title {
+  font-family: "Space Mono", serif;
+  transition: color 0.3s ease;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #373737;
+  text-align: left;
+  text-decoration: none;
+}
+
+.timeline-title:hover {
+  color: #c41e3a;
 }
 
 /* Mobile responsive design */

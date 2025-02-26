@@ -100,4 +100,10 @@
   .padding-bottom {
     margin-bottom: 15px;
   }
+  .dot {
+    left: 35%;
+  }
+  .timeline::before {
+    left: 35%;
+  }
 }

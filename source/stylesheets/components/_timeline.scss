@@ -55,7 +55,7 @@
   text-align: right;
   font-weight: bold;
   font-family: "Space Mono", serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #373737;
   width: 30%;
   padding-right: 50px;
@@ -69,7 +69,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: "Dosis", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   width: 70%;
 }
 
@@ -88,12 +88,14 @@
 @media (max-width: 500px) {
   .left {
     padding-right: 15px;
+    font-size: 16px;
   }
   .right {
     padding-left: 20px;
+    font-size: 16px;
   }
   .timeline {
-    max-width: 90%;
+    max-width: 91%;
   }
   .padding-bottom {
     margin-bottom: 15px;

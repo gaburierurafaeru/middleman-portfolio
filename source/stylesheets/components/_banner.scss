@@ -213,7 +213,7 @@
   font-size: 25px;
   font-family: "Space Mono", serif;
   color: #373737;
-  padding-left: 9.5%; /* Moves it more to the right */
+  padding-left: 11%; /* Moves it more to the right */
   line-height: 1.2em;
   max-width: 90%;
 }
@@ -232,7 +232,7 @@
   margin-bottom: 0; /* Ensure no extra padding */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 620px) {
   .banner-text-container h2 {
     font-size: 56px;
     text-align: center; /* Centers text horizontally */
@@ -289,7 +289,7 @@
   }
 
   .banner-text-container p {
-    max-width: 90%;
+    max-width: 95%;
     font-size: 30px;
   }
 
@@ -326,9 +326,6 @@
   }
   .banner-text-container p {
     font-size: 18px;
-  }
-  .text-content {
-    bottom: 5% !important;
   }
 }
 

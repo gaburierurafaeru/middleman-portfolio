@@ -314,15 +314,6 @@
     font-size: 65px;
   }
 }
-@media (max-width: 650px) and (min-height: 900px) {
-  .banner-text-container {
-    height: 30%;
-  }
-
-  .banner-image-container {
-    height: 60%;
-  }
-}
 
 @media (max-width: 375px) {
   .banner-text-container h2 {

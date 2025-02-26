@@ -84,3 +84,15 @@
   transform: translate(-50%, 0);
   z-index: 1;
 }
+
+@media (max-width: 500px) {
+  .left {
+    padding-right: 20px;
+  }
+  .right {
+    padding-left: 20px;
+  }
+  .timeline {
+    max-width: 90%;
+  }
+}

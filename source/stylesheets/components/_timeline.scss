@@ -88,7 +88,7 @@
 @media (max-width: 500px) {
   .left {
     padding-right: 15px;
-    width: 35%;
+    width: 25%;
   }
   .right {
     padding-left: 20px;
@@ -101,9 +101,9 @@
     margin-bottom: 15px;
   }
   .dot {
-    left: 35%;
+    left: 25%;
   }
   .timeline::before {
-    left: 35%;
+    left: 25%;
   }
 }

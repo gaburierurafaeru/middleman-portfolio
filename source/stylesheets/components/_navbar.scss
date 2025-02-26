@@ -37,11 +37,23 @@
   transition: color 0.3s ease;
   padding-left: 20px;
   padding-right: 20px;
-  border-left-style: solid;
-  border-left-width: 3px;
-  border-color: #c41e3a;
   line-height: 1.4;
 }
+
+.navbar-work {
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-color: #c41e3a;
+}
+
+.navbar-about {
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-color: #c41e3a;
+}
+
 .navbar a:hover {
   color: #c41e3a;
 }

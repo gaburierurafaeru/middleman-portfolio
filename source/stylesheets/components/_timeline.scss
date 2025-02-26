@@ -88,22 +88,14 @@
 @media (max-width: 500px) {
   .left {
     padding-right: 15px;
-    width: 26%;
   }
   .right {
     padding-left: 20px;
-    width: 74%;
   }
   .timeline {
     max-width: 90%;
   }
   .padding-bottom {
     margin-bottom: 15px;
-  }
-  .dot {
-    left: 26%;
-  }
-  .timeline::before {
-    left: 26%;
   }
 }

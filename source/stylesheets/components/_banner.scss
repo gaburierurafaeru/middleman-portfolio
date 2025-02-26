@@ -279,7 +279,7 @@
   }
 }
 
-@media (min-height: 970px) and (min-width: 1500px) {
+@media (min-width: 1600px) {
   .text-content {
     bottom: 15%;
   }
@@ -328,17 +328,17 @@
     font-size: 18px;
   }
   .text-content {
-    bottom: 5%;
+    bottom: 5% !important;
   }
 }
 
 @media (max-width: 650px) and (min-height: 900px) {
   .banner-image-container {
-    height: 60%;
+    height: 55%;
   }
 
   .banner-text-container {
-    height: 30%;
+    height: 35%;
   }
   .banner-navbar-space {
     height: 10%;

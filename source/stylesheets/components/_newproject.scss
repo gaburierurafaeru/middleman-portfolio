@@ -76,7 +76,7 @@
   // top: 50%; /* Center vertically */
   // right: 37px; /* Align to the right */
   // transform: translateY(-50%); /* Adjust to center exactly vertically */
-  width: 225px;
+  width: 250px;
   height: 410px;
   /*border-radius: 29px;*/
   border-radius: 14px;
@@ -86,6 +86,10 @@
     -1px -1px 4px 0px rgba(0, 0, 0, 0.25) inset;
   // z-index: 1;
   text-align: center;
+  justify-content: flex-start; /* Keeps title & description at the top */
+  align-items: center; /* Centers text */
+  display: flex;
+  flex-direction: column;
 }
 
 .new-content {
@@ -100,7 +104,7 @@
 
 .parent-container h1 {
   color: #373737;
-  margin-top: 42px;
+  margin-top: 28px;
   font-family: "Space Mono", serif;
   font-weight: 400;
   font-style: normal;
@@ -115,16 +119,15 @@
   font-family: "Space Mono", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 15px;
 }
 
 .description {
-  width: 154px;
-  height: 117px;
+  width: 85%;
+  height: fit-content;
   flex-shrink: 0;
   color: #373737;
   font-family: Dosis;
@@ -133,25 +136,27 @@
   font-weight: 100;
   line-height: normal;
   text-align: left;
-  margin-left: 34px;
+  margin-left: 24px;
   line-height: 1.5;
+  flex-grow: 1;
 }
 
 .case-study-button {
-  margin-top: 80px;
   display: inline-flex;
   padding: 10px 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   color: #fefefe;
-  font-family: Dosis;
+  font-family: "Space Mono", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   /*border-radius: 50px;*/
   border-radius: 7px;
+  margin-top: auto;
+  margin-bottom: 30px;
 }
 
 .project-header {

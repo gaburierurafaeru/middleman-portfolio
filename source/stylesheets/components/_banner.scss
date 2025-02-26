@@ -261,14 +261,14 @@
     height: 40%;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .banner-text-container h2 {
     font-size: 40px;
     line-height: 1em;
   }
 
   .banner-text-container p {
-    font-size: 18px;
+    font-size: 19px;
   }
   /*.banner-image-container {
     background-image: url("../images/mobile-coolnewbanner.png");*/
@@ -325,7 +325,7 @@
     width: 100%;
   }
   .banner-text-container p {
-    font-size: 17px;
+    font-size: 18px;
   }
   .text-content {
     bottom: 5%;

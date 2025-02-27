@@ -238,6 +238,8 @@
   }
 }
 
+/*PHONES*/
+
 @media (max-width: 620px) {
   .banner-text-container h2 {
     font-size: 56px;
@@ -285,7 +287,21 @@
   }
 }
 
-@media (min-width: 1500px) and (min-height: 950) {
+@media (max-width: 375px) {
+  .banner-text-container h2 {
+    font-size: 37px;
+    text-align: center; /* Centers text horizontally */
+    padding-left: 0; /* Removes left padding to ensure centering */
+    width: 100%;
+  }
+  .banner-text-container p {
+    font-size: 18px;
+  }
+}
+
+/*DESKTOPS*/
+
+@media (min-width: 1500px) and (min-height: 950px) {
   .text-content {
     bottom: 15%;
   }
@@ -320,18 +336,6 @@
   .banner-text-container h2 {
     margin-bottom: 5px;
     font-size: 65px;
-  }
-}
-
-@media (max-width: 375px) {
-  .banner-text-container h2 {
-    font-size: 37px;
-    text-align: center; /* Centers text horizontally */
-    padding-left: 0; /* Removes left padding to ensure centering */
-    width: 100%;
-  }
-  .banner-text-container p {
-    font-size: 18px;
   }
 }
 

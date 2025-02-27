@@ -302,7 +302,7 @@
 
 /*DESKTOPS*/
 
-@media (min-width: 1500px) and (min-height: 950px) {
+@media (min-width: 1500px) and (min-height: 900px) {
   .text-content {
     bottom: 15%;
   }
@@ -319,6 +319,12 @@
   }
   .banner-navbar-space {
     height: 10%;
+  }
+  .banner-text-container h2 {
+    font-size: 75px;
+  }
+  .banner-text-container p {
+    font-size: 30px;
   }
 }
 /*

@@ -339,6 +339,20 @@
     margin-bottom: 5px;
     font-size: 65px;
   }
+
+  .text-content {
+    bottom: 5% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .banner-text-container p {
+    font-size: 21px;
+  }
+
+  .banner-text-container h2 {
+    font-size: 63px;
+  }
 }
 
 @media (max-width: 650px) and (min-height: 900px) {

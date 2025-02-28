@@ -97,7 +97,7 @@
   align-items: center;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 800px) {
   .navbar a {
     font-size: 20px;
     padding-left: 10px;
@@ -124,9 +124,12 @@
     padding-left: 5px;
     padding-right: 5px;
   }
+  .navbar {
+    height: 10%;
+  }
 }
 
-@media (min-height: 970px) and (min-width: 1500px) {
+@media (min-width: 1500px) and (min-height: 950px) {
   .navbar {
     height: 10%;
   }

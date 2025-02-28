@@ -107,6 +107,7 @@
 
   .navbar {
     padding: 20px 17px 15px 27px;
+    height: 10%;
   }
 
   .navbar h1 {
@@ -129,11 +130,5 @@
   }
   .navbar a {
     font-size: 17px;
-  }
-
-  @media (min-width: 1500px) and (min-height: 950px) {
-    .navbar {
-      height: 10%;
-    }
   }
 }

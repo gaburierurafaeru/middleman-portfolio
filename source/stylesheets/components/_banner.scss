@@ -198,7 +198,7 @@
 }
 
 .banner-text-container h2 {
-  font-size: clamp(5vw, 8vw, 8vw);
+  font-size: 5vw;
   font-family: "Space Mono", serif;
   font-weight: 400;
   font-style: normal;
@@ -210,7 +210,7 @@
 }
 
 .banner-text-container p {
-  font-size: clamp(1.8vw, 3vh, 3vw);
+  font-size: 1.8vw;
   font-family: "Space Mono", serif;
   color: #373737;
   padding-left: 11%; /* Moves it more to the right */
@@ -239,6 +239,8 @@
   }
   .banner-text-container p {
     max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 

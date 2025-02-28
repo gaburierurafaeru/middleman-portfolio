@@ -244,6 +244,25 @@
   }
 }
 
+/*DESKTOP*/
+
+@media (min-width: 1500px) and (min-height: 950px) {
+  .banner-text-container {
+    height: 30%;
+  }
+  .banner-image-container {
+    height: 55%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .banner-text-container h2 {
+    margin-bottom: 5px;
+  }
+  .text-content {
+    bottom: 5% !important;
+  }
+}
 /*PHONES
 
 @media (max-width: 620px) {

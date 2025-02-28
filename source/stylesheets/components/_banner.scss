@@ -232,20 +232,6 @@
   margin-bottom: 0; /* Ensure no extra padding */
 }
 
-@media (max-width: 800px) {
-  .banner-text-container h2 {
-    /*font-size: 56px;*/
-    text-align: center;
-    font-size: 10vw;
-  }
-  .banner-text-container p {
-    max-width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 3.6vw;
-  }
-}
-
 /*DESKTOP*/
 
 @media (min-width: 1500px) and (min-height: 950px) {
@@ -265,8 +251,34 @@
     bottom: 5% !important;
   }
 }
-/*PHONES
 
+/*TABLETS*/
+
+@media (max-width: 800px) {
+  .banner-text-container h2 {
+    text-align: center;
+    font-size: 10vw;
+  }
+  .banner-text-container p {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 3.6vw;
+  }
+}
+
+/*PHONES*/
+
+@media (max-width: 500px) {
+  .banner-text-container h2 {
+    font-size: 15vw;
+  }
+  .banner-text-container p {
+    font-size: 5.5vw;
+  }
+}
+
+/*
 @media (max-width: 620px) {
   .banner-text-container h2 {
     font-size: 56px;
@@ -328,9 +340,9 @@
     bottom: 5% !important;
   }
 }
-*/
 
-/*DESKTOPS
+
+
 
 @media (min-width: 1500px) and (min-height: 950px) {
   .text-content {

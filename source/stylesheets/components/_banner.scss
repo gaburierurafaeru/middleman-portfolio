@@ -275,12 +275,12 @@
   }
 }
 
-@media (max-width: 380px) and (max-height: 750px) {
+@media (max-width: 380px) and (max-height: 790px) {
   .text-content {
     bottom: 5% !important;
   }
   .banner-text-container h2 {
-    bottom: 5% !important;
+    bottom: 1vw !important;
     font-size: 10vw;
   }
   .banner-text-container p {

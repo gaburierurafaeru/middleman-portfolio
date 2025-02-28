@@ -328,7 +328,7 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1000px) and (max-width: 1300px) {
   .banner-text-container p {
     max-width: 90%;
     padding-left: 7%;
@@ -345,7 +345,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
   .banner-text-container p {
     font-size: 21px;
   }

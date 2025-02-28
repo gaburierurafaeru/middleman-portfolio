@@ -288,12 +288,13 @@
   }
 }
 
-@media (max-width: 380px) and (max-height: 700px) {
+@media (max-width: 380px) and (max-height: 800px) {
   .banner-text-container h2 {
     font-size: 35px;
     text-align: center; /* Centers text horizontally */
     padding-left: 0; /* Removes left padding to ensure centering */
     width: 100%;
+    margin-bottom: 3px;
   }
   .banner-text-container p {
     font-size: 16px;

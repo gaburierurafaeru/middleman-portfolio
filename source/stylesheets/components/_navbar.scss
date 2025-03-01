@@ -119,11 +119,17 @@
   }
 }
 
+@media (max-width: 500px) {
+  .navbar a {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+
 @media (max-width: 380px) {
   .navbar {
     height: 10%;
     line-height: 0.9;
-    padding: 15px 12px 10px 24px;
   }
   .navbar h1 {
     font-size: 25px;

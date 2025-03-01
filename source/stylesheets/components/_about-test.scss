@@ -85,7 +85,7 @@
 }
 
 /* Mobile responsive design */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .content-container {
     flex-direction: column; /* Stack columns on top of each other */
     text-align: center;
@@ -98,5 +98,10 @@
   }
   #aboutme {
     scroll-margin-top: 100px;
+  }
+
+  .timeline-title {
+    font-size: 20px;
+    text-align: center;
   }
 }

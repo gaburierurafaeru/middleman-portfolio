@@ -79,6 +79,12 @@
   z-index: 1;
 }
 
+@media (max-width: 800px) {
+  .timeline {
+    max-width: 95%;
+  }
+}
+
 @media (max-width: 500px) {
   .left {
     padding-right: 15px;
@@ -93,5 +99,11 @@
   }
   .padding-bottom {
     margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .left {
+    font-size: 15px;
   }
 }

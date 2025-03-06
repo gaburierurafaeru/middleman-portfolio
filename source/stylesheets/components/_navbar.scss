@@ -123,10 +123,10 @@
   .navbar a {
     padding-left: 7px;
     padding-right: 7px;
+    line-height: 0.9;
   }
   .navbar {
     padding: 0px 5px 0px 30px;
-    line-height: 0.9;
   }
   .navbar h1 {
     padding-right: 30px;
@@ -134,13 +134,11 @@
 }
 
 @media (max-width: 380px) {
-  .navbar {
-    line-height: 0.8;
-  }
   .navbar h1 {
     font-size: 25px;
   }
   .navbar a {
     font-size: 17px;
+    line-height: 0.8;
   }
 }

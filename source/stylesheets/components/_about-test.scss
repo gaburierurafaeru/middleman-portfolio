@@ -61,12 +61,16 @@
   color: #fefefe; /* Button background color on hover */
   background-color: #c41e3a;
   text-decoration: none;
-  border-radius: 50px; /* Optional: Rounded corners */
+  border-radius: 7px; /* Optional: Rounded corners */
   transition: background-color 0.7s ease, transform 0.3s ease;
+  font-family: "Space Mono", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .button-link:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .timeline-title {
@@ -76,12 +80,18 @@
   font-style: normal;
   font-size: 30px;
   color: #373737;
-  text-align: left;
   text-decoration: none;
 }
 
 .timeline-title:hover {
   color: #c41e3a;
+}
+
+.about-links {
+  display: flex;
+  justify-content: space-between; /* Pushes items to opposite ends */
+  align-items: center; /* Aligns them vertically */
+  width: 100%;
 }
 
 /* Mobile responsive design */
